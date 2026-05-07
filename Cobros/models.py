@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-# Modelo Cliente
+
 class Cliente(models.Model):
 
     # Definición de atributos
