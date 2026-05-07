@@ -40,7 +40,7 @@ class Vehiculo(models.Model):
         return f"{self.placa} - {self.marca}"
 
 
-# Modelo Estacionamiento
+
 class Estacionamiento(models.Model):
 
     # Definición de atributos
