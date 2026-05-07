@@ -30,7 +30,7 @@ class Vehiculo(models.Model):
     color = models.CharField(max_length=30)
     tipo = models.CharField(max_length=30)
 
-    
+    # Relación con cliente
     cliente = models.ForeignKey(
         Cliente,
         on_delete=models.CASCADE
