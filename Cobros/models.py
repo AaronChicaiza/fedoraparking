@@ -19,7 +19,7 @@ class Cliente(models.Model):
         return f"{self.apellido} {self.nombre}"
 
 
-# Modelo Vehiculo
+
 class Vehiculo(models.Model):
 
     # Definición de atributos
